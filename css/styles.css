@@ -2,10 +2,51 @@
 /*main color #212121*/
 /*text color #757575*/
 /*accent color #2196F3*/
+/*hero background color #2F303A;*/
+
 body{
     background-color:#F5F5F5 ;
     color: #757575;
 }
 .logo{
     color: #000000;
+}
+/*site-nav*/
+.list{
+    list-style: none;
+}
+.site-nav .link {
+    color: #212121;
+}
+.site-nav .link:hover{
+    color: #2196F3;
+}
+
+/*contacts */
+ .contacts .link{
+    color: #757575;
+ }
+.contacts .link:hover,
+.contacts .link:focus 
+{
+    color: #2196F3 ;
+}
+/*hero*/
+.hero{
+    background-color: #2F303A;
+}
+.hero-title {
+    color: #ffffff;
+}
+.order{
+    background-color: #2196F3;
+    color: #ffffff;
+}
+
+/*Company Credo Section*/
+.section-title{
+    color: #212121;
+}
+.section-description{
+    color: #757575;
 }
