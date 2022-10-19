@@ -2,3 +2,10 @@
 /*main color #212121*/
 /*text color #757575*/
 /*accent color #2196F3*/
+body{
+    background-color:#F5F5F5 ;
+    color: #757575;
+}
+.logo{
+    color: #000000;
+}
