@@ -50,3 +50,43 @@ body{
 .section-description{
     color: #757575;
 }
+
+/*Work Section*/
+.section-work{
+    color: #212121;
+}
+
+/*Team Section*/
+
+.section-galery{
+    color: #212121;
+    
+}
+.section-team{
+    background-color: #ffffff;
+}
+.team{
+    color: #212121;
+}
+.position{
+    color: #757575;
+}
+/*Footer Contacts*/
+
+.footer{
+  
+    background-color: #2F303A;
+}
+.logo-footer{
+    color: #ffffff;
+}
+
+
+
+
+
+
+/*Portfolio page*/
+h1{
+    display: none;
+}
