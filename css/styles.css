@@ -3,7 +3,9 @@
 /*text color #757575*/
 /*accent color #2196F3*/
 /*hero background color #2F303A;*/
-
+:root{
+    --primary text color: ;
+}
 body{
     background-color:#F5F5F5 ;
     color: #757575;
@@ -35,9 +37,19 @@ body{
 /*hero*/
 .hero{
     background-color: #2F303A;
+    
 }
 .hero-title {
     color: #ffffff;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+   font-size: 44px;
+    line-height: calc(60/44);
+    text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
 }
 .order{
     background-color: #2196F3;
@@ -87,7 +99,3 @@ body{
 
 
 
-/*Portfolio page*/
-h1{
-    display: none;
-}
