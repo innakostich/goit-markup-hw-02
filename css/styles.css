@@ -48,8 +48,9 @@ body{
 }
 
 /*contacts */
- .contacts .link{
+.contacts .link{
     color: var(--secondary-text-color);
+    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: calc(16/14);
@@ -90,8 +91,9 @@ body{
     border-style: none;
 
 }
-.order-button:hover, .order-button:focus{
-    color: var(--accent-color);
+.order-button:hover, 
+.order-button:focus {
+    color: #188CE8;
 }
 .order-button:active{
     color: #188CE8;
@@ -181,16 +183,7 @@ body{
    text-decoration: none;
 }
 
-.address-link{
-  
-    color: var( --secondary-contacts-color);
-    font-style: normal;
-    font-weight: 400;
-   font-size: 14px;
-   line-height: calc(24/14);
-   text-decoration: none;
-    
-}
+
 
 /*Portfolio Section Filters*/
 
