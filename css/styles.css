@@ -93,7 +93,8 @@ body{
 }
 .order-button:hover, 
 .order-button:focus {
-    color: #188CE8;
+    color:var(--contacts-text-color) ;
+    background-color: #188CE8;
 }
 .order-button:active{
     color: #188CE8;
@@ -204,6 +205,10 @@ color: var(--accent-color);
      background-color: #F5F4FA;
      color: var(--primary-text-color);
      border-style: none;
+ }
+ .filter-button-act{
+    background-color: var(--accent-color);
+    color: var(--contacts-text-color) ;
  }
  .visually-hidden {
     position: absolute;
