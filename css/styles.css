@@ -26,6 +26,7 @@ body{
    font-weight: 700;
    font-size: 26px;
    line-height: calc(31/26);
+   text-decoration: none;
 
 }
 /*site-nav*/
@@ -38,6 +39,7 @@ body{
     font-size: 14px;
     line-height: calc(16/14);
     letter-spacing: 0.02em;
+    text-decoration: none;
     
 }
 .site-nav .link:hover{
@@ -52,6 +54,7 @@ body{
     font-size: 14px;
     line-height: calc(16/14);
     letter-spacing: 0.02em;
+    text-decoration: none;
     
  }
 .contacts .link:hover,
@@ -83,6 +86,15 @@ body{
     font-weight: 700;
     font-size: 16px;
     line-height: calc(30/16);
+    cursor: pointer;
+    border-style: none;
+
+}
+.order-button:hover, .order-button:focus{
+    color: var(--accent-color);
+}
+.order-button:active{
+    color: #188CE8;
 }
 
 /*Company Credo Section*/
@@ -158,6 +170,7 @@ body{
    font-weight: 700;
    font-size: 26px;
    line-height: calc(31/26);
+   text-decoration: none;
 }
 .google-link{
     color: var(--contacts-text-color);
@@ -165,6 +178,7 @@ body{
     font-weight: 400;
    font-size: 14px;
    line-height: calc(24/14);
+   text-decoration: none;
 }
 
 .address-link{
@@ -174,5 +188,58 @@ body{
     font-weight: 400;
    font-size: 14px;
    line-height: calc(24/14);
+   text-decoration: none;
     
+}
+
+/*Portfolio Section Filters*/
+
+.button-list{
+    list-style: none; 
+}
+
+.button-list:hover,
+.button-list:focus{
+color: var(--accent-color);
+}
+.filter-button{
+    font-family: inherit;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: calc(26/16);
+     cursor: pointer;
+     background-color: #F5F4FA;
+     color: var(--primary-text-color);
+     border-style: none;
+ }
+ .visually-hidden {
+    position: absolute;
+     white-space: nowrap;
+     width: 1px;
+     height: 1px;
+     overflow: hidden;
+     border: 0;
+     padding: 0;
+     clip: rect(0 0 0 0);
+     clip-path: inset(50%);
+     margin: -1px;
+   }
+/*Portfolio Gallery*/
+
+.portfolio-list{
+    list-style: none;
+}
+.gallery-description{
+    color: var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(30/16);
+    letter-spacing: 0.03em;
+}
+.portfolio-gallery{
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: calc(36/18);
+    letter-spacing: 0.06em;
 }
