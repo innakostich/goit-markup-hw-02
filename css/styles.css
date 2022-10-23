@@ -17,10 +17,16 @@
 body{
     background-color:var(--primary-background-color);
     color: var(--secondary-text-color);
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif ;
+    letter-spacing: 0.03 em;
 }
 .logo{
     color: var(--secondary-accent-color);
+    font-family: 'Raleway', sans-serif ;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: calc(31/26);
+
 }
 /*site-nav*/
 .list{
@@ -28,19 +34,31 @@ body{
 }
 .site-nav .link {
     color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.02em;
+    
 }
 .site-nav .link:hover{
     color: var(--accent-color);
+   
 }
 
 /*contacts */
  .contacts .link{
     color: var(--secondary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.02em;
+    
  }
 .contacts .link:hover,
 .contacts .link:focus 
 {
     color: var(--accent-color) ;
+    
 }
 /*hero*/
 .hero{
@@ -50,47 +68,82 @@ body{
 .hero-title {
     color: var(--contacts-text-color);
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 900;
-   font-size: 44px;
+        font-weight: 900;
+    font-size: 44px;
     line-height: calc(60/44);
     text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 
 }
-.order{
+.order-button{
     background-color: var(--accent-color);
     color: var(--contacts-text-color);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30/16);
 }
 
 /*Company Credo Section*/
+.title-list{
+    list-style: none;
+}
 .section-title{
+    
     color: var(--primary-text-color);
+    font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16/14);
+ 
 }
 .section-description{
     color: var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 14px;
+  line-height: calc(24/14);
 }
 
 /*Work Section*/
+.work-list{
+    list-style: none;
+}
 .section-work{
     color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42/36);
+   text-align: center;
+   
 }
 
 /*Team Section*/
 
 .section-galery{
     color: var(--primary-text-color);
+    font-weight: 700;
+   font-size: 36px;
+   line-height: calc(42/36);
+  text-align: center;
     
 }
-.section-team{
+.team-list{
+    list-style: none;
     background-color: var(--contacts-text-color);
 }
 .team{
     color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 16px;
+   line-height: calc(19/16);
+   text-align: center;
 }
 .position{
     color: var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+   line-height: calc(19/16);
+   text-align: center;
 }
 /*Footer Contacts*/
 
@@ -100,13 +153,26 @@ body{
 }
 .logo-footer{
     color: var(--contacts-text-color);
+    font-family: 'Raleway', sans-serif ;
+    font-style: normal;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: calc(31/26);
 }
+.google-link{
+    color: var(--contacts-text-color);
+    font-style: normal;
+    font-weight: 400;
+   font-size: 14px;
+   line-height: calc(24/14);
+}
+
 .address-link{
   
     color: var( --secondary-contacts-color);
+    font-style: normal;
+    font-weight: 400;
+   font-size: 14px;
+   line-height: calc(24/14);
+    
 }
-
-
-
-
-
