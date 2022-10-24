@@ -30,25 +30,27 @@ body{
 
 }
 /*site-nav*/
-.list{
+.site-nav-list{
     list-style: none;
 }
-.site-nav .link {
+.site-nav-list .link {
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: calc(16/14);
     letter-spacing: 0.02em;
     text-decoration: none;
-    
+   
 }
-.site-nav .link:hover{
+.site-nav-list .link:hover,
+.site-nav-list .link:focus
+{
     color: var(--accent-color);
    
 }
 
 /*contacts */
-.contacts .link{
+.contacts-list .link{
     color: var(--secondary-text-color);
     font-style: normal;
     font-weight: 500;
@@ -58,8 +60,11 @@ body{
     text-decoration: none;
     
  }
-.contacts .link:hover,
-.contacts .link:focus 
+ .contacts-list{
+    list-style: none;
+ }
+.contacts-list .link:hover,
+.contacts-list .link:focus 
 {
     color: var(--accent-color) ;
     
@@ -188,17 +193,18 @@ body{
 
 /*Portfolio Section Filters*/
 
-.button-list{
+.filter-list{
     list-style: none; 
 }
 
-.button-list:hover,
-.button-list:focus{
-color: var(--accent-color);
+.filter-list .button:hover,
+.filter-list .button:focus{
+    background-color: var(--accent-color);
+    color: var(--contacts-text-color) ;
 }
-.filter-button{
+.filter-list .button{
     font-family: inherit;
-     font-weight: 500;
+     font: weight 500px;;
      font-size: 16px;
      line-height: calc(26/16);
      cursor: pointer;
@@ -206,7 +212,7 @@ color: var(--accent-color);
      color: var(--primary-text-color);
      border-style: none;
  }
- .filter-button-act{
+ .filter-list .button:active{
     background-color: var(--accent-color);
     color: var(--contacts-text-color) ;
  }
