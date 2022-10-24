@@ -52,7 +52,6 @@ body{
 /*contacts */
 .contacts-list .link{
     color: var(--secondary-text-color);
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: calc(16/14);
@@ -76,8 +75,7 @@ body{
 }
 .hero-title {
     color: var(--contacts-text-color);
-    font-family: 'Roboto';
-        font-weight: 900;
+    font-weight: 900;
     font-size: 44px;
     line-height: calc(60/44);
     text-align: center;
@@ -121,7 +119,7 @@ body{
     color: var(--secondary-text-color);
     font-weight: 400;
     font-size: 14px;
-  line-height: calc(24/14);
+    line-height: calc(24/14);
 }
 
 /*Work Section*/
@@ -133,7 +131,7 @@ body{
     font-weight: 700;
     font-size: 36px;
     line-height: calc(42/36);
-   text-align: center;
+    text-align: center;
    
 }
 
@@ -142,9 +140,9 @@ body{
 .section-galery{
     color: var(--primary-text-color);
     font-weight: 700;
-   font-size: 36px;
-   line-height: calc(42/36);
-  text-align: center;
+    font-size: 36px;
+    line-height: calc(42/36);
+    text-align: center;
     
 }
 .team-list{
@@ -155,15 +153,15 @@ body{
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 16px;
-   line-height: calc(19/16);
-   text-align: center;
+    line-height: calc(19/16);
+    text-align: center;
 }
 .position{
     color: var(--secondary-text-color);
     font-weight: 400;
     font-size: 16px;
-   line-height: calc(19/16);
-   text-align: center;
+    line-height: calc(19/16);
+    text-align: center;
 }
 /*Footer Contacts*/
 
@@ -174,19 +172,17 @@ body{
 .logo-footer{
     color: var(--contacts-text-color);
     font-family: 'Raleway', sans-serif ;
-    font-style: normal;
-   font-weight: 700;
-   font-size: 26px;
-   line-height: calc(31/26);
-   text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31/26);
+    text-decoration: none;
 }
 .google-link{
     color: var(--contacts-text-color);
-    font-style: normal;
     font-weight: 400;
-   font-size: 14px;
-   line-height: calc(24/14);
-   text-decoration: none;
+    font-size: 14px;
+    line-height: calc(24/14);
+    text-decoration: none;
 }
 
 
